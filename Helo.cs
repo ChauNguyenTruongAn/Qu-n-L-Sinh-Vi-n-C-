@@ -2,13 +2,12 @@ using System;
 
 namespace HelloWorld
 {
-    internal class Program
+    class Program
     {
-        public static void Main(string[] args)
+        public void haloo()
         {
             Console.WriteLine("Hello world");
             Console.ReadKey();
         }
-
     }
 }
