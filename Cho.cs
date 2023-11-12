@@ -11,5 +11,15 @@ class Man{
         this.Name = Name;
         this.Age = Age;
     }
+
+    public void Show(){
+        Console.WriteLine("Name: " + Name);
+        Console.WriteLine("Age: " + Age);
+    }
+
+    public int Age{
+        set{this.Age = value;}
+        get{return this.Age}
+    }
 }
 
