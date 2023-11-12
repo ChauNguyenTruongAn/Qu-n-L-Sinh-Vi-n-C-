@@ -1,7 +1,14 @@
 using System;
 
-class Main(){
-    public static void Main(string[] args){
-        Console.WriteLine("Hello World!");
+namespace HelloWorld
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hello world");
+            Console.ReadKey();
+        }
+
     }
 }
