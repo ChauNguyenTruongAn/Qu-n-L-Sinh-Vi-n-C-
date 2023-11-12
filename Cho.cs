@@ -21,5 +21,9 @@ class Man{
         set{this.Age = value;}
         get{return this.Age}
     }
+    //COn cho rah
+    public static void (){
+        Console.WriteLine("Hi! My name is: " + this.Name);
+    }
 }
 
